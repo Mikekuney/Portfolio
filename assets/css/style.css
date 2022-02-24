@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*apply style to header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 35px;
+    background-color: #20154b;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #6f6f7a;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: #6f6f7a;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px; 
+    font-weight: lighter;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #6f6f7a;
+}
+
+.header nav ul li a:hover {
+    background: #20154b;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+section div h1 {
+    align: right;
+}
+
+section {
+    padding: 30px;
+}
+
+section h1 {
+    float: left;
+    border-right: 5px solid #000000;
+    align-content: right;
+}
+
+section p {
+    padding: 15px;
+    align: center;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project1 {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project2 {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project3 {
+    background-image: url("../images/istockphoto-496851322-612x612.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project img {
+    width: 50%;
+}
+
+.project-info
+
+.heading {
+    border-right: 5px solid #000000;
+    padding: 20px 20px;
+}
+
+.flex-row {
+    display: flex;
+}
