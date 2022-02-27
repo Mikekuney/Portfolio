@@ -147,6 +147,41 @@ section p {
     padding: 20px 20px;
 }
 
+.heading nav {
+    margin: 7px 0;
+}
+
+.heading nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.heading nav ul li {
+    padding: 10px 15px; 
+    font-weight: lighter;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #6f6f7a;
+}
+
+.heading nav ul li a {
+    padding: 10px 15px; 
+    font-weight: lighter;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #6f6f7a;
+}
+
+.heading nav ul li a:hover {
+    background: #20154b;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+
 .flex-row {
     display: flex;
 
