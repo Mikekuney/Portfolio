@@ -56,6 +56,15 @@ header nav ul li a {
     text-shadow: none;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background: #20154b;
+    color: #6f6f7a;
+    width: 100%;
+    padding: 40Px 35px;
+}
+
 .hero {
     background-image: url("../images/images.jpg");
     background-size: cover;
@@ -120,6 +129,7 @@ section p {
     background-size: cover;
     flex-wrap: wrap;
     align-items: flex-start;
+    width: 50%;
 }
 
 .project2 {
@@ -127,6 +137,7 @@ section p {
     background-size: cover;
     flex-wrap: wrap;
     align-items: flex-start;
+    width: 25%;
 }
 
 .project3 {
