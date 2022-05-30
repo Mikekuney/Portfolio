@@ -125,7 +125,7 @@ section p {
 }
 
 .project1 {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/ACC-Game-Finder.png");
     background-size: cover;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -133,6 +133,22 @@ section p {
 }
 
 .project2 {
+    background-image: url("../images/Gather.png");
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.project3 {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.project4 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     flex-wrap: wrap;
@@ -140,11 +156,12 @@ section p {
     width: 25%;
 }
 
-.project3 {
+.project5 {
     background-image: url("../images/istockphoto-496851322-612x612.jpg");
     background-size: cover;
     flex-wrap: wrap;
     align-items: flex-start;
+    width: 25%;
 }
 
 .project img {
